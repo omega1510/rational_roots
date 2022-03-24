@@ -12,7 +12,7 @@ mod roots;
 let polynomial: Vec<i64> = vec![3, 0, -2, 1];
 ```
 
-3. Call the `find_roots()` function on the polynomial:
+3. Call the `find_roots()` function on the reference to the polynomial:
 ```rust
 roots::find_roots(&polynomial)
 ```
